@@ -116,7 +116,8 @@ a{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 30px;  
+    gap: 30px;
+    width: 90%;  
 }
 .diseno-botones{
     width: 30%;
