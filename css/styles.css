@@ -180,3 +180,130 @@ a{
     text-align: end;
     font-weight: 100;
 }
+.contenedor-consultas {
+  display: flex;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  line-height: 1.4;
+}
+
+/* Columna de Imágenes */
+.imagenes-laterales {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+}
+
+.imagenes-laterales img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px; /* Opcional, para suavizar bordes */
+}
+
+/* Columna de Contenido */
+.indicaciones {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Estilos de Títulos Generales */
+.indicaciones h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.indicaciones-previas h2 {
+  margin-top: 5px;
+}
+
+.indicaciones-previas ul, .section-posteriores ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.indicaciones-previas li, .section-posteriores li {
+  margin-bottom: 6px;
+  list-style-type: disc;
+}
+
+.texto-indicacionesprevias {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+/* Sección de la Tabla de Ayuno */
+.ayuno {
+  width: 80%;
+  margin: 0 auto; /* Centrar la tabla respecto a su columna */
+  border: 1px solid #000000;
+}
+
+.header-tabla {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.contenedor-tabla {
+  display: flex;
+}
+
+.columnas-tabla {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.columna-8hs {
+  border-right: 1px solid #000000;
+}
+
+.titulo-columna {
+  text-align: center;
+  font-weight: bold;
+  padding: 6px;
+  border-bottom: 1px solid #000000;
+  font-size: 14px;
+}
+
+/* Listas con Checkmarks */
+.check-list {
+  list-style: none;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.check-list li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tick {
+  font-size: 11px;
+  margin-right: 8px;
+}
+
+/* Secciones de Texto Inferiores */
+.section-durante p {
+  text-align: justify;
+  font-size: 13px;
+}
+
+.section-posteriores p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
