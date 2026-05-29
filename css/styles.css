@@ -202,7 +202,6 @@ a{
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 4px; /* Opcional, para suavizar bordes */
 }
 
 /* Columna de Contenido */
