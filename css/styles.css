@@ -190,18 +190,18 @@ a{
   line-height: 1.4;
 }
 
-/* Columna de Imágenes */
 .imagenes-laterales {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 25%;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .imagenes-laterales img {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 
 /* Columna de Contenido */
