@@ -233,7 +233,6 @@ a {
   height: auto;
 }
 
-/* Columna de Contenido */
 .indicaciones {
   width: 75%;
   display: flex;
@@ -241,7 +240,6 @@ a {
   gap: 25px;
 }
 
-/* Estilos de Títulos Generales */
 .indicaciones h2,
 .durante h2,
 .indicaciones-posteriores h2 {
@@ -273,11 +271,9 @@ a {
   margin-top: 15px;
 }
 
-/* Sección de la Tabla de Ayuno */
 .ayuno {
   width: 80%;
   margin: 0 auto;
-  /* Centrar la tabla respecto a su columna */
   border: 1px solid #000000;
 }
 
@@ -311,7 +307,6 @@ a {
   font-size: 14px;
 }
 
-/* Listas con Checkmarks */
 .check-list {
   list-style: none;
   padding: 10px 15px;
@@ -330,7 +325,6 @@ a {
   margin-right: 8px;
 }
 
-/* Secciones de Texto Inferiores */
 .section-durante p {
   text-align: justify;
   font-size: 13px;
@@ -339,4 +333,23 @@ a {
 .section-posteriores p {
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+#contenedor-contacto {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedorimg-mapacontacto{
+  height: 387px;
+  width: 387px;
+}
+
+.img-mapacontacto{
+  width: 100%;
 }
