@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,66 +9,61 @@
 </head>
 
 <body>
-    <header>   
- <div class="header">
-    <div class="contenedor">
-    <div class="imagen-header">
-        <img class="img-header" src="img/logo-blanco.png" alt="">
-     </div>
-    <div class="boton-header">
-        <a href="index.html">HOME</a>
-    </div>
-    <div class="boton-header">
-        <a href="consultas.html">CONSULTAS</a>
-    </div>
-    <div class="boton-header">
-        <a href="contacto.html">CONTACTO</a>
-    </div>
-    <div class="boton-header">
-        <a href="">RESULTADOS</a>
-    </div>
-    </div>
- </div>
-</header>
+    <header>
+        <div class="header">
+            <div class="contenedor">
+                <div class="imagen-header">
+                    <img class="img-header" src="img/logo-blanco.png" alt="">
+                </div>
+                <div class="boton-header">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="boton-header">
+                    <a href="consultas.html">CONSULTAS</a>
+                </div>
+                <div class="boton-header">
+                    <a href="contacto.html">CONTACTO</a>
+                </div>
+                <div class="boton-header">
+                    <a href="">RESULTADOS</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<form action="" method="post">
-    <div>
-        <label>
-            Nombre y Apellido
-            <input type="text" name="nombreyapellido" required>
-        </label>
+    <div class="texto-resultados">
+        <h2>POR FAVOR, INGRESE SUS DATOS</h2>
     </div>
-    <div>
-        <label>
-           DNI
-            <input type="number" name="dni" required>
-        </label>
-    </div>
-    <div>
-        <label>
-            Telefono
-            <input type="tel" name="telefono" required>
-        </label>
-    </div>
-    <div>
-        Consulta
-        <textarea name="consulta"></textarea>
-    </div>
-    <div>
-        <input type="submit" value="Buscar">
-    </div>
-</form>
 
-        <div class="separador"></div>
-    
-        <footer class="contenedor-footer">
+<div class="contenedor-resultados">
+    <form class="formulario-resultados" action="" method="post">
+        <div>
+            <label>
+                Nombre y Apellido
+                <input type="text" name="nombreyapellido" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                DNI
+                <input type="number" name="dni" required>
+            </label>
+        </div>
+        <div>
+            <input class="btn-buscar" type="submit" value="Buscar   >">
+        </div>
+    </form>
+</div>
+    <div class="separador"></div>
+
+    <footer class="contenedor-footer">
         <div class="iconos-redes">
             <img src="img/email.png" alt="">
             <img src="img/instagram.png" alt="">
             <img src="img/facebook.png" alt="">
         </div>
         <div>
-            <img class= logo-footer src="img/logo-negro.png" alt="">
+            <img class=logo-footer src="img/logo-negro.png" alt="">
         </div>
         <div>
             <h5 class="texto-footer">© 2026 Dr Menendez</h5>
