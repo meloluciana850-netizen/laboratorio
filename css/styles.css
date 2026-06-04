@@ -482,7 +482,7 @@ label {
   top: -35px;
 }
 
-.modal-overlay {
+.ventana-emergente {
   position: fixed;
   top: 0;
   left: 0;
@@ -496,14 +496,14 @@ label {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.modal-box {
+.ventanaemergente-caja {
   background-color: white;
   width: 400px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
-.modal-header {
+.ventanaemergente-header {
   background-color: #000000;
   color: white;
   padding: 10px 15px;
@@ -515,28 +515,28 @@ label {
   cursor: pointer;
 }
 
-.close-x {
+.boton-cerrar {
   font-size: 18px;
 }
 
-.modal-body {
+.ventanaemergente-body {
   padding: 30px 10px;
   text-align: center;
 }
 
-.modal-body h2 {
+.ventanaemergente-body h2 {
   font-size: 28px;
   margin-bottom: 20px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-.modal-body p {
+.ventanaemergente-body p {
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
-.modal-body p strong {
+.ventanaemergente-body p strong {
   color: #000000;
 }
