@@ -474,12 +474,12 @@ label {
 }
 
 #avatar-resultados {
-  height: 65px;
-  width: 65px;
+  height: 55px;
+  width: 55px;
   margin-bottom: -3px;
   position: absolute;
   object-fit: contain;
-  top: -40px;
+  top: -35px;
 }
 
 .modal-overlay {
