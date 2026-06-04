@@ -26,7 +26,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.texto-header{
+.texto-header {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -35,7 +35,7 @@
   justify-content: center;
   text-align: center;
   margin-bottom: 50px;
-  }
+}
 
 .boton-header:hover {
   transform: translateY(-5px);
@@ -360,41 +360,41 @@ a {
 
 }
 
-.contenedorimg-mapacontacto{
+.contenedorimg-mapacontacto {
   width: 387px;
   height: 387px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.img-mapacontacto{
+.img-mapacontacto {
   width: 387px;
   height: 387px;
 }
 
-.elementos-contacto ul{
+.elementos-contacto ul {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0%;
   text-align: start;
   line-height: 5px;
   font-size: 10pt;
-  font-weight:500;
+  font-weight: 500;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.elementos-contacto img{
+.elementos-contacto img {
   height: 150px;
   width: 150px;
   align-items: center;
   margin-top: 20px;
 }
 
-.imag-uno{
+.imag-uno {
   margin-left: 80px;
 }
 
-.formulario-resultados{
+.formulario-resultados {
   display: flex;
   flex-direction: column;
   background-color: #D9D9D9;
@@ -408,22 +408,23 @@ a {
 }
 
 .formulario-resultados div {
-justify-content: center;
-padding: 5px;
-font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.texto-resultados{
+.texto-resultados {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 250px;
   margin-bottom: 50px;
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"],
+input[type="number"] {
   width: 100%;
   height: 35px;
   border: 0.2px solid #000000;
@@ -435,11 +436,11 @@ input[type="text"], input[type="number"] {
   box-sizing: border-box;
 }
 
-.btn-buscar{
+.btn-buscar {
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #000000; 
+  background-color: #000000;
   color: #ffffff;
   border: none;
   padding: 8px 15px;
@@ -450,13 +451,13 @@ input[type="text"], input[type="number"] {
   transition: background-color 0.2s ease;
 }
 
-label{
+label {
   font-size: 12px;
   font-weight: lighter;
   color: #777777;
 }
 
-.contenedor-resultados{
+.contenedor-resultados {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -472,11 +473,70 @@ label{
   background-color: #818181;
 }
 
-#avatar-resultados{
+#avatar-resultados {
   height: 65px;
   width: 65px;
   margin-bottom: -3px;
   position: absolute;
   object-fit: contain;
   top: -40px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-box {
+  background-color: white;
+  width: 400px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.modal-header {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-x {
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.modal-body h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.modal-body p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.modal-body p strong {
+  color: #000000;
 }
