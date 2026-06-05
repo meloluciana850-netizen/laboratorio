@@ -48,8 +48,29 @@
             <ul>Teléfeno: 011 2599-5852</ul>
             <ul>Email: labdrmenendez@gmail.com</ul>
             <div>
-                <img class="imag-uno" src="img/imguno-contacto.jpg">
-                <img src="img/imgdos-contacto.jpg">
+                <form netlify>
+                    <div>
+                        <label>
+                            Nombre y Apellido
+                            <input type="text" name="nombreyapellido" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Email
+                            <input type="email" name="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Consulta
+                            <input type="text" name="consulta" required>
+                        </label>
+                    </div>
+                    <div>
+                        <input class="btn-buscar" type="submit" value="Enviar   >">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
