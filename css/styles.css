@@ -1,5 +1,7 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -129,7 +131,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 20px;
-  text-align: center;
+  justify-content: center;
 }
 
 .main-title {
@@ -147,6 +149,8 @@ a {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .diseno-botones {
@@ -183,7 +187,7 @@ a {
 }
 
 .zocalo-imagenes .arrow {
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .contenedor-footer {
@@ -218,11 +222,13 @@ a {
 
 .contenedor-consultas {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   max-width: 1000px;
   margin: 0 auto;
-  color: #333333;
+  color: #000000;
   line-height: 1.4;
+  justify-content: center;
+  align-items: center;
 }
 
 .imagenes-laterales {
@@ -257,25 +263,26 @@ a {
   color: #000000;
 }
 
+.durante p{
+  text-align: justify;
+}
+
 .indicaciones-previas h2 {
   margin-top: 100px;
 }
 
 .indicaciones-previas ul,
-.section-posteriores ul {
+.indicaciones-posteriores ul, .indicaciones-previas li,
+.indicaciones-posteriores li {
   padding-left: 20px;
   margin-bottom: 15px;
-}
-
-.indicaciones-previas li,
-.section-posteriores li {
   margin-bottom: 6px;
   list-style-type: disc;
 }
 
-.texto-indicacionesprevias {
-  font-size: 13px;
-  margin-top: 15px;
+.texto-indicacionesprevias p {
+  font-size: 14px;
+  margin-top: 8px;
 }
 
 .ayuno {
@@ -288,9 +295,9 @@ a {
   background-color: #000000;
   color: #ffffff;
   text-align: center;
-  font-weight: bold;
-  padding: 8px;
-  font-size: 14px;
+  font-weight: 400;
+  padding: 9px;
+  font-size: 18px;
 }
 
 .contenedor-tabla {
@@ -308,16 +315,17 @@ a {
 
 .titulo-columna {
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   padding: 6px;
   border-bottom: 1px solid #000000;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .check-list {
   list-style: none;
   padding: 10px 15px;
   margin: 0;
+  font-size: 13px;
 }
 
 .check-list li {
@@ -328,18 +336,15 @@ a {
 }
 
 .tick {
-  font-size: 11px;
+  font-size: 13px;
   margin-right: 8px;
 }
 
-.section-durante p {
-  text-align: justify;
-  font-size: 13px;
-}
-
-.section-posteriores p {
+.section-posteriores p, .section-durante p {
   font-size: 14px;
   margin-bottom: 10px;
+  text-align: justify;
+  font-size: 13px;
 }
 
 #contenedor-contacto {
@@ -359,11 +364,35 @@ a {
   height: 387px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  gap: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contenedorimg-mapacontacto:hover {
+  transform: translateY(-5px);
 }
 
 .img-mapacontacto {
   width: 387px;
   height: 387px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  display: block;
+}
+
+.contenedorimg-mapacontacto p {
+  background: #000000;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0%;
+  text-align: start;
+}
+
+.contenedorimg-mapacontacto span{
+  text-align: end;
 }
 
 .elementos-contacto ul {
