@@ -11,6 +11,22 @@ body {
   flex-wrap: nowrap;
 }
 
+.header-resultados {
+  height: 135px;
+  width: 100%;
+  border-bottom: solid 1px #000000;
+}
+
+.contenedor-headerresultados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 135px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .contenedor {
   display: flex;
   width: 90%;
@@ -448,7 +464,8 @@ a {
 }
 
 input[type="text"],
-input[type="email"], input[type="number"] {
+input[type="email"],
+input[type="number"] {
   width: 100%;
   height: 35px;
   border: 0.2px solid #000000;
@@ -510,7 +527,8 @@ label {
   position: relative;
 }
 
-.btn-buscar:hover, .btn-enviar:hover {
+.btn-buscar:hover,
+.btn-enviar:hover {
   background-color: #818181;
 }
 
