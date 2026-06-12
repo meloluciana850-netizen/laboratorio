@@ -3,20 +3,17 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .header {
   height: 135px;
   background-color: black;
   width: 100%;
   flex-wrap: nowrap;
 }
-
 .header-resultados {
   height: 135px;
   width: 100%;
   border-bottom: solid 1px #000000;
 }
-
 .contenedor-headerresultados {
   display: flex;
   align-items: center;
@@ -26,7 +23,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .contenedor {
   display: flex;
   width: 90%;
@@ -34,7 +30,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 .boton-header {
   color: white;
   width: 20%;
@@ -46,7 +41,6 @@ body {
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .texto-header {
   background-color: black;
   color: #ffffff;
@@ -56,38 +50,31 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .boton-header:hover {
   transform: translateY(-5px);
 }
-
 a {
   text-decoration: none;
   color: #ffffff;
 }
-
 .img-header {
   width: 221px;
   height: 90px;
   align-items: center;
   margin: 10%;
 }
-
 .imagen-principal {
   width: 100%;
   align-items: center;
 }
-
 .img-principio {
   height: 385px;
   align-items: center;
   margin-bottom: 100px;
 }
-
 .presentacion {
   width: 100%;
 }
-
 .contenedor-presentacion {
   display: flex;
   width: 55%;
@@ -98,7 +85,6 @@ a {
   gap: 10px;
   flex-wrap: nowrap;
 }
-
 .texto-p {
   text-align: justify;
   margin: 15px;
@@ -106,7 +92,6 @@ a {
   font-weight: 500;
   align-content: start;
 }
-
 .boton-horarios {
   display: inline-block;
   font-size: 12pt;
@@ -119,15 +104,9 @@ a {
   margin-top: 0;
   transition: transform 1s ease, box-shadow 1s ease;
 }
-
-.boton-horarios span {
-  margin-left: 15px;
-}
-
 .boton-horarios:hover {
   transform: translateY(-10px);
 }
-
 .separador {
   width: 95%;
   height: 1px;
@@ -136,20 +115,17 @@ a {
   margin-right: auto;
   margin-top: 0;
 }
-
 .comenzamos {
   color: black;
   text-align: center;
   font-size: 12pt;
 }
-
 .container {
   width: 100%;
   max-width: 1200px;
   padding: 40px 20px;
   justify-content: center;
 }
-
 .main-title {
   font-size: 2rem;
   font-weight: 700;
@@ -157,7 +133,6 @@ a {
   margin-bottom: 48px;
   text-transform: uppercase;
 }
-
 .botones {
   display: flex;
   flex-wrap: nowrap;
@@ -168,30 +143,25 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 .diseno-botones {
   width: 30%;
   text-decoration: none;
   color: inherit;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .diseno-botones:hover {
   transform: translateY(-5px);
 }
-
 .diseno-imagenes {
   width: 100%;
   background-color: #f0f0f0;
 
 }
-
 .diseno-imagenes img {
   width: 100%;
   height: 100%;
   display: block;
 }
-
 .zocalo-imagenes {
   background-color: #000000;
   color: #ffffff;
@@ -203,11 +173,9 @@ a {
   font-weight: 500;
   margin-bottom: 45px;
 }
-
 .zocalo-imagenes .arrow {
   font-size: 14pt;
 }
-
 .contenedor-footer {
   width: 90%;
   margin-left: auto;
@@ -217,12 +185,10 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
 .iconos-redes {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
 .logo-footer {
   width: 117px;
   height: 48px;
@@ -230,14 +196,12 @@ a {
   margin-bottom: 10%;
   align-items: center;
 }
-
 .texto-footer {
   font-size: 10pt;
   color: #798DA3;
   text-align: end;
   font-weight: 100;
 }
-
 .contenedor-consultas {
   display: flex;
   gap: 40px;
@@ -248,7 +212,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 .imagenes-laterales {
   display: flex;
   flex-direction: column;
@@ -257,19 +220,16 @@ a {
   margin-top: 200px;
   margin-bottom: 200px;
 }
-
 .imagenes-laterales img {
   width: 100%;
   height: auto;
 }
-
 .indicaciones {
   width: 75%;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-
 .indicaciones h2,
 .durante h2,
 .indicaciones-posteriores h2,
@@ -280,15 +240,12 @@ a {
   margin-bottom: 12px;
   color: #000000;
 }
-
 .durante p {
   text-align: justify;
 }
-
 .indicaciones-previas h2 {
   margin-top: 100px;
 }
-
 .indicaciones-previas ul,
 .indicaciones-posteriores ul,
 .indicaciones-previas li,
@@ -298,18 +255,15 @@ a {
   margin-bottom: 6px;
   list-style-type: disc;
 }
-
 .texto-indicacionesprevias p {
   font-size: 14px;
   margin-top: 8px;
 }
-
 .ayuno {
   width: 80%;
   margin: 0 auto;
   border: 1px solid #000000;
 }
-
 .header-tabla {
   background-color: #000000;
   color: #ffffff;
@@ -318,20 +272,16 @@ a {
   padding: 9px;
   font-size: 18px;
 }
-
 .contenedor-tabla {
   display: flex;
 }
-
 .columnas-tabla {
   width: 50%;
   box-sizing: border-box;
 }
-
 .columna-8hs {
   border-right: 1px solid #000000;
 }
-
 .titulo-columna {
   text-align: center;
   font-weight: 700;
@@ -339,26 +289,22 @@ a {
   border-bottom: 1px solid #000000;
   font-size: 16px;
 }
-
 .check-list {
   list-style: none;
   padding: 10px 15px;
   margin: 0;
   font-size: 13px;
 }
-
 .check-list li {
   font-size: 13px;
   margin-bottom: 5px;
   display: flex;
   align-items: center;
 }
-
 .tick {
   font-size: 13px;
   margin-right: 8px;
 }
-
 .section-posteriores p,
 .section-durante p {
   font-size: 14px;
@@ -366,7 +312,6 @@ a {
   text-align: justify;
   font-size: 13px;
 }
-
 #contenedor-contacto {
   width: 90%;
   margin-left: auto;
@@ -378,7 +323,6 @@ a {
   height: 700px;
 
 }
-
 .contenedorimg-mapacontacto {
   width: 387px;
   height: 387px;
@@ -389,11 +333,9 @@ a {
   gap: 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .contenedorimg-mapacontacto:hover {
   transform: translateY(-5px);
 }
-
 .img-mapacontacto {
   width: 387px;
   height: 387px;
@@ -401,7 +343,6 @@ a {
   margin-top: 0%;
   display: block;
 }
-
 .contenedorimg-mapacontacto p {
   background: #000000;
   padding: 10px;
@@ -410,11 +351,9 @@ a {
   margin-top: 0%;
   text-align: start;
 }
-
 .contenedorimg-mapacontacto span {
   text-align: end;
 }
-
 .elementos-contacto ul {
   padding: 0%;
   text-align: start;
@@ -424,18 +363,15 @@ a {
   margin-left: 15px;
   margin-right: 15px;
 }
-
 .elementos-contacto img {
   height: 150px;
   width: 150px;
   align-items: center;
   margin-top: 20px;
 }
-
 .imag-uno {
   margin-left: 80px;
 }
-
 .formulario-resultados {
   display: flex;
   flex-direction: column;
@@ -448,12 +384,10 @@ a {
   margin-bottom: 0px;
   box-sizing: border-box;
 }
-
 .formulario-resultados div {
   justify-content: center;
   padding: 5px;
 }
-
 .texto-resultados {
   text-align: center;
   font-size: 12px;
@@ -462,7 +396,6 @@ a {
   margin-top: 250px;
   margin-bottom: 50px;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="number"] {
@@ -476,7 +409,6 @@ input[type="number"] {
   padding-top: 3px;
   box-sizing: border-box;
 }
-
 .btn-enviar {
   align-items: center;
   display: flex;
@@ -491,7 +423,6 @@ input[type="number"] {
   margin: 20px auto 0 auto;
   transition: background-color 0.2s ease;
 }
-
 .btn-buscar {
   align-items: center;
   display: flex;
@@ -507,13 +438,11 @@ input[type="number"] {
   margin-top: 20px;
   transition: background-color 0.2s ease;
 }
-
 label {
   font-size: 12px;
   font-weight: lighter;
   color: #000000;
 }
-
 .contenedor-resultados {
   width: 90%;
   margin-left: auto;
@@ -526,12 +455,10 @@ label {
   flex-direction: column;
   position: relative;
 }
-
 .btn-buscar:hover,
 .btn-enviar:hover {
   background-color: #818181;
 }
-
 #avatar-resultados {
   height: 55px;
   width: 55px;
@@ -540,7 +467,6 @@ label {
   object-fit: contain;
   top: -35px;
 }
-
 .ventana-emergente {
   position: fixed;
   top: 0;
@@ -553,47 +479,30 @@ label {
   justify-content: center;
   align-items: center;
 }
-
 .ventanaemergente-caja {
   background-color: white;
   width: 400px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
-
-.ventanaemergente-header {
-  background-color: #000000;
-  color: white;
-  padding: 10px 15px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.boton-cerrar {
-  font-size: 18px;
-}
-
 .ventanaemergente-body {
   padding: 30px 10px;
   text-align: center;
 }
-
 .ventanaemergente-body h2 {
   font-size: 28px;
   margin-bottom: 20px;
   letter-spacing: 1px;
   font-weight: bold;
 }
-
 .ventanaemergente-body p {
   font-size: 15px;
   margin-bottom: 10px;
   line-height: 1.5;
 }
-
 .ventanaemergente-body p strong {
   color: #000000;
+}
+#dialog-content{
+  width: 30%;
 }

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -51,7 +54,13 @@
                         la
                         semana (generalmente de lunes a viernes por la mañana y tarde, y sábados por la mañana), lo que
                         facilita el acceso a sus servicios para la comunidad local.</p>
-                    <a href="horarios.html" class="boton-horarios">HORARIOS <span>></span></a>
+                    <button data-fancybox data-src="#dialog-content" class="boton-horarios">HORARIOS ></button>
+                    <div class="ventanaemergente-body"     id="dialog-content" style="display:none">
+                        <h2>HORARIOS</h2>
+                        <p><strong>Lunes a Viernes</strong><br>7:30 a 15:00hs</p>
+                        <p><strong>Sábados</strong><br>7:30 a 12:00hs</p>
+                        <p><strong>Domingo</strong><br>Cerrado</p>
+                    </div>
                 </div>
                 <div>
                     <img src="img/home-presentacion.jpg" alt="">
@@ -150,6 +159,15 @@
             <h5 class="texto-footer">© 2026 Dr Menendez</h5>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+    <script>
+    
+      Fancybox.bind("[data-fancybox]", {
+        });
+
+    </script>
 
 </body>
 
