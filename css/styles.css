@@ -97,6 +97,7 @@ a {
   font-size: 12pt;
   font-weight: 500;
   text-decoration: none;
+  border: none;
   color: white;
   background-color: black;
   padding: 6px 14px;
@@ -456,7 +457,8 @@ label {
   position: relative;
 }
 .btn-buscar:hover,
-.btn-enviar:hover {
+.btn-enviar:hover,
+.boton-resultados:hover{
   background-color: #818181;
 }
 #avatar-resultados {
@@ -505,4 +507,41 @@ label {
 }
 #dialog-content{
   width: 30%;
+}
+.pag-resultados {
+  padding: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 250px;
+}
+.contenedor-pagresultados { 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;  
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.bloque-qr{
+  margin-right: 250px;
+  margin-bottom: 0px;
+}
+.bloque-qr p{
+  margin-top: 3px;
+}
+.bloque-texto{
+  margin-top: 50px;
+}
+.boton-resultados{
+  display: inline-block;
+  font-size: 12pt;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  padding: 6px 14px;
+  margin-left: 300px;
+  margin-top: 7px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
