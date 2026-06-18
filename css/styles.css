@@ -545,3 +545,182 @@ label {
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
+
+/* ESTILOS RESPONSIVES*/
+
+@media (max-width: 768px) {
+
+  body{
+    font-size: 10pt;
+  }
+  
+  .contenedor, 
+  .contenedor-headerresultados, 
+  .contenedor-presentacion, 
+  .botones, 
+  .contenedor-footer, 
+  #contenedor-contacto,
+  .contenedor-pagresultados {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    height: auto !important;
+    padding: 20px 10px !important;
+    text-align: center;
+  }
+  .contenedor-consultas{
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    height: auto !important;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+  .header {
+    height: auto !important;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .header-resultados{
+    height: auto;
+  }
+
+  .img-header {
+    margin: 15px auto !important; 
+  }
+  
+  .boton-header {
+    width: 100% !important;
+    text-align: start !important;
+    margin: 10px 0 !important;
+    font-size: 12pt;
+    margin-bottom: 200px;
+  }
+
+  .texto-header{
+    font-size: 10pt;
+  }
+
+  .img-principio {
+    height: auto !important;
+    margin-bottom: 25px;
+  }
+  
+  .contenedor-presentacion {
+    width: 95% !important;
+  }
+  
+  .texto-p {
+    text-align: justify; 
+    margin: 10px 0;
+  }
+  
+  .boton-horarios {
+    margin: 20px auto 0 auto !important; 
+    display: block;
+    width: fit-content;
+  }
+
+  .indicaciones, .indicaciones-previas, .durante{
+    margin-top: 0px;
+  }
+
+  .diseno-botones {
+    width: 100% !important; 
+    margin-bottom: 20px;
+  }
+  
+  .zocalo-imagenes {
+    margin-bottom: 15px;
+  }
+
+  .contenedor-tabla {
+    flex-direction: column;
+  }
+  
+  .columnas-tabla {
+    width: 100% !important;
+  }
+  
+  .columna-8hs {
+    border-right: none !important;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .ayuno {
+    width: 100% !important;
+  }
+  
+  .imagenes-laterales {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 70%;
+    width: 70%;
+  }
+
+  #contenedor-contacto {
+    gap: 30px;
+  }
+  
+  .contenedorimg-mapacontacto {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0px !important;
+  }
+  
+  .img-mapacontacto {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 0;
+  }
+  
+  .elementos-contacto ul {
+    line-height: 12px; 
+    text-align: center;
+  }
+  
+  .texto-resultados {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 8pt;
+  }
+  
+  .formulario-resultados {
+    width: 100% !important;
+  }
+  
+  .btn-buscar {
+    margin-bottom: 80px;
+  }
+
+  .ventanaemergente-caja, #dialog-content {
+    width: 90% !important;
+  }
+
+  .pag-resultados, .bloque-qr {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  
+  .bloque-texto {
+    margin-top: 20px;
+  }
+  
+  .boton-resultados {
+    margin-left: 0 !important; 
+    margin-top: 15px;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .logo-footer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .texto-footer {
+    text-align: center !important;
+    margin-top: 10px;
+  }
+}
