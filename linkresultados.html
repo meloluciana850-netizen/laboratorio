@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio Dr. Menendez</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -25,7 +26,7 @@
         <div class="bloque-texto">
             <p class="pag-resultados">Fecha: dd.mm.aaaa</p>
             <p class="pag-resultados">Paciente: Nombre y Apellido</p>
-            <a href="">
+            <a data-fancybox data-type="pdf" data-src="Resultados_LucianaMelo.pdf" href="javascript:;">
             <button 
              class="boton-resultados">Ver informe
              </button>
@@ -37,5 +38,14 @@
         </div>
     </div>
 </main>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+  // Inicializa Fancybox para todos los elementos con el atributo 'data-fancybox'
+  Fancybox.bind("[data-fancybox]", {
+    // Aquí puedes agregar opciones de configuración si lo deseas
+  });
+</script>
 
 </body>
